@@ -5,10 +5,9 @@ class TestBase:
 
     @pytest.fixture
     def setUp(self):
-        side1 = int(input("Digite o 1º lado do triângulo: "))
-        side2 = int(input("Digite o 2º lado do triângulo: "))
-        side3 = int(input("Digite o 3º lado do triângulo: "))
-
-        triangle = Triangle(side1, side2, side3)
+        # triangle = Triangle(0,0,0)
+        # triangle = Triangle(10,5,0)
+        # triangle = Triangle(8,8,8)
+        triangle = Triangle(4,2,2)
 
         return triangle
