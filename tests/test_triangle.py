@@ -2,9 +2,6 @@ from tests.test_base import TestBase
 
 class TestIdentifier(TestBase):
     
-    def test_all_sides_is_zero(self, setUp):
-        assert setUp.all_sides_is_zero()
-    
     def test_some_side_is_zero(self, setUp):
         assert setUp.some_side_is_zero()
     

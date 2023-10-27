@@ -6,9 +6,6 @@ class Triangle:
         self.side3 = side3
         self.total_length = side1 + side2 + side3
 
-    def all_sides_is_zero(self):
-        return (self.side1 == 0 and self.side2 == 0 and self.side3 == 0)
-    
     def some_side_is_zero(self):
         return not (self.side1 == 0 or self.side2 == 0 or self.side3 == 0)
     
